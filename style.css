@@ -1,0 +1,143 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 547px;
+  margin-top: 130px;
+  margin-bottom: 90px;
+}
+.Montserrat {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #898f99;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  text-transform: uppercase;
+  color: #0ec8cb;
+  max-width: 547px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.textHead {
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #999999;
+  width: 528px;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 960px;
+}
+.list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 240px;
+  min-width: auto;
+  max-height: 420px;
+  background: #f7f7f7;
+  border: 1px solid #ececec;
+  padding: 55px 14px 80px;
+}
+.list-item:hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 240px;
+  max-height: 420px;
+  background: #0ec8cb;
+  border: 1px solid #ececec;
+}
+.icon {
+  width: 65.08px;
+  height: 64px;
+  margin-bottom: 50px;
+}
+.anchor {
+  background: url(SVG_icons/anchor-1.svg) no-repeat center;
+}
+
+.diamond {
+  background: url(SVG_icons/diamond-1.svg) no-repeat center;
+}
+.glasses {
+  background: url(SVG_icons/glasses-1.svg) no-repeat center;
+}
+.monitor {
+  background: url(SVG_icons/monitor-1.svg) no-repeat center;
+}
+.list-item:hover .anchor {
+  background: #0ec8cb url(SVG_icons/anchor.svg) no-repeat center;
+}
+.list-item:hover .diamond {
+  background: #0ec8cb url(SVG_icons/diamond.svg) no-repeat center;
+}
+.list-item:hover .glasses {
+  background: #0ec8cb url(SVG_icons/glasses.svg) no-repeat center;
+}
+.list-item:hover .monitor {
+  background: #0ec8cb url(SVG_icons/monitor.svg) no-repeat center;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1b1b1b;
+  margin-bottom: 30px;
+}
+
+.list-item:hover h2, .list-item:hover .text_white {
+  color: #fff;
+}
+
+.text_white {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+
+
+  text-align: center;
+
+  color: #777777;
+}
